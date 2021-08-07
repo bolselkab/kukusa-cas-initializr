@@ -1,6 +1,6 @@
 version: '3'
 services:
-  cas:
+  kukusa_cas:
     build: .
     ports:
      - "8443:8443"

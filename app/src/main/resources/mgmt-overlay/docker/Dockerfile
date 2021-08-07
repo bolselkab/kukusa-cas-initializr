@@ -18,8 +18,8 @@ RUN cd cas-management-overlay \
 
 FROM adoptopenjdk/openjdk11:alpine-jre AS cas-management
 
-LABEL "Organization"="Apereo"
-LABEL "Description"="Apereo CAS Management"
+LABEL "Organization"="Kukusa"
+LABEL "Description"="Kukusa CAS Management"
 
 RUN cd / \
     && mkdir -p /etc/cas/config \

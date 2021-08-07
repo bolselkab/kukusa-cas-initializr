@@ -10,6 +10,6 @@ if [ -z "$imageTag" ]; then
   imageTag="v$version" 
 fi
 
-echo "Pushing CAS docker image tagged as $imageTag to apereo/cas..."
-docker push apereo/cas:"$imageTag" \
-  && echo "Pushed apereo/cas:$imageTag successfully.";
+echo "Pushing CAS docker image tagged as $imageTag to kukusa/cas..."
+docker push kukusa/cas:"$imageTag" \
+  && echo "Pushed kukusa/cas:$imageTag successfully.";

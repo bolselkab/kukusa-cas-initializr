@@ -17,8 +17,8 @@ RUN cd cas-overlay \
 
 FROM adoptopenjdk/openjdk11:alpine-jre AS cas
 
-LABEL "Organization"="Apereo"
-LABEL "Description"="Apereo CAS"
+LABEL "Organization"="Kukusa"
+LABEL "Description"="Kukusa CAS"
 
 RUN cd / \
     && mkdir -p /etc/cas/config \

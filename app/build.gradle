@@ -58,7 +58,7 @@ dependencies {
 }
 
 bootBuildImage {
-    imageName = "apereo/cas-initializr:${casVersion}"
+    imageName = "kukusa/cas-initializr:${casVersion}"
 }
 
 bootJar {
